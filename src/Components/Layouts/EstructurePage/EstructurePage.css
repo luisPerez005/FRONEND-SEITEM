@@ -16,6 +16,11 @@
     width: 100%;
     height: auto;
 }
+.estructure > div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .estructure > div > button{
     padding: 0.8rem;
