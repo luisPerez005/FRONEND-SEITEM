@@ -1,0 +1,31 @@
+.principal{
+    display: flex;
+}
+
+.estructure{
+    width: 85%;
+    height: 100vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+}
+.estructure > div{
+    width: 100%;
+    height: auto;
+}
+
+.estructure > div > button{
+    padding: 0.8rem;
+    border-radius: 10px;
+    border: none;
+    background-color:  #3c7fa9;
+}
+
+.estructure > div > button:hover{
+    transform: scaleY(1.1);
+    background-color:  #618ba5;
+    cursor: pointer;
+}

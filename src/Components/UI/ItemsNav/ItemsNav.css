@@ -1,0 +1,12 @@
+.items > a{
+    color: #ffff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.items > a:hover{
+    transition: 0.5s;
+    background-color: #3e8bbb;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
